@@ -1,0 +1,114 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        
+
+        .child-content,
+        .preteen-content,
+        .teen-content,
+        .young-adult-content,
+        .adult-content {
+            padding: 10px;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(204, 0, 0, 0.5);
+        }
+
+        .child-content {
+            background-color: #ffe6e6;
+            color: #cc0000;
+            border: 2px solid #cc0000;
+            padding: 15px;
+            border-radius: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 153, 0, 0.5);
+        }
+
+        .preteen-content {
+            background-color: #ffebcc;
+            color: #ff9900;
+            border: 2px solid #ff9900;
+            padding: 15px;
+            border-radius: 10px;
+            border-radius: 10px;
+           box-shadow: 0 0 10px rgba(255, 153, 0, 0.5);
+            
+        }
+
+        .teen-content {
+            background-color: #ccf2ff;
+            color: #008ae6;
+            border: 2px solid #008ae6;
+            padding: 15px;
+            border-radius: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 138, 230, 0.5);
+        }
+
+        .young-adult-content {
+            background-color: #d9f9b1;
+            color: #8cc84b;
+            border: 2px solid #8cc84b;
+            padding: 15px;
+            border-radius: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(140, 200, 75, 0.5);
+        }
+
+        .adult-content {
+            background-color: #f2f2f2;
+            color: #666;
+            border: 2px solid #666;
+            padding: 15px;
+            border-radius: 10px; 
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(102, 102, 102, 0.5);
+        }
+
+    input[type="text"] {
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+   .button-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s; /* Adding transition for smooth color change */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
